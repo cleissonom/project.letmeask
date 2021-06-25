@@ -10,6 +10,8 @@
   display: flex;
   align-items: center;
 
+  transition: filter 0.2s;
+
   div {
     background-color: #835afd;
     padding: 0 12px;
@@ -27,4 +29,38 @@
     font-size: 14px;
     font-weight: 500;
   }
+
+  .tooltip {
+    display: none;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      bottom: 100%;  /* At the top of the tooltip */
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent transparent black transparent;
+    }
+  }
+  
+  &:hover {
+    > div {
+      filter: brightness(0.9);
+    }
+    .tooltip {
+      display: block;
+      position: absolute;
+      z-index: 1;
+      width: 100px;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      top: 73px;
+    }
+  }
 }
+

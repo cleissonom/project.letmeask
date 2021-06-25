@@ -95,20 +95,22 @@
     height: 50px;
     border-radius: 8px;
     font-weight: 500;
-    background-color: #ea4335;
-    color: #fff;
+    background-color: #fff;
+    border: 1px solid #a8a8b3;
+    color: #000;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
     cursor: pointer;
-    border: 0;
 
     transition: filter 0.2s;
 
     img {
       margin-right: 8px;
+      width: 30px;
+      height: auto;
     }
 
     &:hover {
