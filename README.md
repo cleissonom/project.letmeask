@@ -58,4 +58,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 
 ---
 
-<p align="center">Made with 💜 with Rocketseat</p>
+<p align="center">Made with 💜 with [Rocketseat](https://discord.gg/uYFJ5VJ)</p>
