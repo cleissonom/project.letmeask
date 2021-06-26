@@ -14,6 +14,10 @@
 
 <br>
 
+## 👨‍💻 Project
+
+- [Deployed App](https://letmeask-11121.web.app/)
+
 ## 🧪 Technologies
 
 This project was developed using the following technologies:
