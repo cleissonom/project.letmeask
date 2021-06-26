@@ -142,3 +142,37 @@
     }
   }
 }
+
+@media (max-width: 1030px) {
+  #page-auth {
+    flex-direction: column;
+
+    main {
+      padding: 64px 32px;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  #page-auth {
+    aside {
+      text-align: center;
+
+      strong {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 310px) {
+  #page-auth {
+    .create-room {
+      font-size: 14px;
+    }
+  }
+}

@@ -109,6 +109,92 @@
     .question-list {
       margin-top: 32px;
       margin-bottom: 64px;
+
+      .question {
+        p {
+          word-break: break-all;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  #page-room {
+    main {
+      margin: 0 56px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #page-room {
+    main {
+      .room-title {
+        h1 {
+          text-align: center;
+          font-size: 14px
+        }
+      }
+    }
+
+    header {
+      .content {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  #page-room {
+    header {
+      .content {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  #page-room {
+    header {
+      .content {
+        > div {
+          flex-direction: column;
+        }
+      }
+    }
+
+    main {
+      .room-title {
+        flex-direction: column-reverse;
+        gap: 1rem;
+      }
+
+      form {
+        .form-footer {
+          flex-direction: column;
+          gap: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  #page-room {
+    main {
+      .question-list {
+        .question {
+          footer {
+            flex-direction: column;
+            gap: 1rem;
+          }
+        }
+      }
     }
   }
 }
