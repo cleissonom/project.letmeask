@@ -12,7 +12,7 @@
     <img alt="Letmeask" title="Letmeask" src=".github/cover.svg" />
 </h1>
 
-<br>
+<hr>
 
 ## 👨‍💻 Project
 
